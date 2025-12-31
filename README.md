@@ -1,2 +1,72 @@
-BMI Calculator (C Language) 🇮🇹 🇬🇧A simple, fast, and interactive Command-Line Interface (CLI) tool to calculate Body Mass Index (BMI). This project is written in C and is optimized for Linux environments (like the terminal or Termux on Android).🚀 FeaturesDual Input Modes: Calculate using Height in Centimeters or Meters.Health Classification: Automatically categorizes the result (Underweight, Normal, Overweight, or Obese) based on WHO standards.Linux Optimized: Features a clean terminal UI using system("clear").Bilingual: The interface uses a mix of English and Italian.Error Handling: Includes basic protection against non-numeric inputs to prevent infinite loops.📊 BMI Categories UsedThe program follows these standard ranges:BMI ValueCategory< 18.5Underweight18.5 – 24.9Normal weight25.0 – 29.9Overweight> 30.0Obese🛠️ How to Compile and RunIf you are on Linux, use gcc to compile:Compile:Bashgcc main.c -o bmi_calculator
-Run:Bash./bmi_calculator
+# 📊 BMI Calculator in C
+
+A lightweight and efficient Command-Line Interface (CLI) application built in **C** to calculate the **Body Mass Index (BMI)**. This tool is designed for **Linux** environments and provides immediate health classification based on user input.
+
+---
+
+## 🛠 Features
+
+* **Flexible Inputs:** Supports both **Centimeters (cm)** and **Meters (m)** for height.
+* **Health Analysis:** Categorizes results into Underweight, Normal, Overweight, or Obese.
+* **Terminal Optimization:** Uses `system("clear")` for a smooth, distraction-free UI on Linux.
+* **Input Validation:** Prevents program crashes when non-numeric characters are entered.
+* **Bilingual Support:** Interface includes both **English** and **Italian** terms.
+
+---
+
+## 📐 BMI Classification
+
+The program calculates the index using the formula: 
+
+The results are categorized according to World Health Organization (WHO) standards:
+
+| BMI Range | Category |
+| --- | --- |
+| **Below 18.5** | Underweight |
+| **18.5 – 24.9** | Normal weight |
+| **25.0 – 29.9** | Overweight |
+| **30.0 and Above** | Obese |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* A Linux-based system (Ubuntu, Fedora, Debian, etc.) or **Termux** on Android (since you use a Pixel 8 Pro).
+* **GCC** (GNU Compiler Collection).
+
+### Installation & Execution
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/yourusername/bmi-calculator-c.git
+cd bmi-calculator-c
+
+```
+
+
+2. **Compile the code:**
+```bash
+gcc main.c -o bmi_calc
+
+```
+
+
+3. **Run the program:**
+```bash
+./bmi_calc
+
+```
+
+
+
+---
+
+## 📝 Technical Notes
+
+* **Language:** C
+* **OS Compatibility:** Linux/Unix (uses `system("clear")`)
+* **Key Logic:** Uses `float` precision for accurate calculations and `do-while` loops for continuous user interaction.
+
+---
