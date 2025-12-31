@@ -33,14 +33,13 @@ The results are categorized according to World Health Organization (WHO) standar
 
 ### Prerequisites
 
-* A Linux-based system (Ubuntu, Fedora, Debian, etc.) or **Termux** on Android (since you use a Pixel 8 Pro).
 * **GCC** (GNU Compiler Collection).
 
 ### Installation & Execution
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/bmi-calculator-c.git
+git clone https://github.com/aam-user/BMI-Calculator.git
 cd bmi-calculator-c
 
 ```
